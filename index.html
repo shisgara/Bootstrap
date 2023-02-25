@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Bootstrap</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/jquery-ui.min.css">
+    <link rel="stylesheet" href="css/fontello.css">
+    <link rel="stylesheet" href="css/magnific-popup.css">
+    <link rel="stylesheet" href="css/animate.min.css">
+    <link rel="stylesheet" href="css/hover-min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+
+<nav class="navbar navbar-expand-lg bg-body-tertiary">
+    <div class="container-fluid">
+        <a class="navbar-brand" href="#">Logo</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">Главная</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Преимущества</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Цены</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Контакты</a>
+                </li>
+
+            </ul>
+            <form class="d-flex" role="search">
+                <input class="form-control me-2" type="search" placeholder="Поиск чая" aria-label="Search">
+                <button class="btn btn-outline-primary" type="submit">Найти</button>
+            </form>
+        </div>
+    </div>
+</nav>
+
+<div class="container">
+    <div class="slider wow animate__zoomIn">
+        <div class="slider__item">
+            <img src="images/tea_bg_01.jpg" alt="Tea01">
+        </div>
+        <div class="slider__item">
+            <img src="images/tea_bg_02.jpg" alt="Tea02">
+        </div>
+        <div class="slider__item">
+            <img src="images/tea_bg_03.jpg" alt="Tea03">
+        </div>
+    </div>
+</div>
+
+<!--<div class="parallax-window" data-parallax="scroll" data-image-src="images/tea_para2.jpg"></div>-->
+
+
+<section class="collection">
+    <div class="container container__collection">
+        <h1 class="collection__title text-center mt-5 mb-5 wow animate__zoomInLeft">Наши чайные коллекции</h1>
+        <div class="row mb-4 wow animate__backInLeft">
+            <div class="col-lg-4">
+                <div class="card h-100">
+                    <a class="card-img-top" href='images/tea_card_01.jpg'
+                       style="background-image: url(images/tea_card_01.jpg)"></a>
+                    <div class="card-body">
+                        <h5 class="card-title">Детокс чай лайм</h5>
+                        <p class="card-text">Великолепный чай внесет в вашу жизнь яркие краски и вкус расслабления</p>
+                        <a href="#" class="btn btn-primary hvr-float-shadow">Подробнее</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4">
+                <div class="card h-100">
+                    <a class="card-img-top" href='images/tea_card_02.jpg'
+                       style="background-image: url(images/tea_card_02.jpg)"></a>
+                    <div class="card-body">
+                        <h5 class="card-title">Ягодный чай</h5>
+                        <p class="card-text">Нотки ягод позволят вам расслабиться и насладиться великолепием этого
+                            чая</p>
+                        <a href="#" class="btn btn-primary hvr-float-shadow">Подробнее</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4">
+                <div class="card h-100">
+                    <a class="card-img-top" href='images/tea_card_03.jpg'
+                       style="background-image: url(images/tea_card_03.jpg)"></a>
+                    <div class="card-body">
+                        <h5 class="card-title">Цветочный чай</h5>
+                        <p class="card-text">Душистые цветы создают невероятный аромат и наполняют вас энергией</p>
+                        <a href="#" class="btn btn-primary hvr-float-shadow">Подробнее</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row wow animate__backInRight">
+            <div class="col-lg-4">
+                <div class="card h-100">
+                    <a class="card-img-top" href='images/tea_card_04.jpg'
+                       style="background-image: url(images/tea_card_04.jpg)"></a>
+                    <div class="card-body">
+                        <h5 class="card-title">Очищающий чай</h5>
+                        <p class="card-text">Бесподобный чай для получения утреннего заряда бодрости</p>
+                        <a href="#" class="btn btn-primary hvr-float-shadow">Подробнее</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4">
+                <div class="card h-100">
+                    <a class="card-img-top" href='images/tea_card_05.jpg'
+                       style="background-image: url(images/tea_card_05.jpg)"></a>
+                    <div class="card-body">
+                        <h5 class="card-title">Кислый чай</h5>
+                        <p class="card-text">Кислый чай для настоящих ценителей кислинки во время чаепития</p>
+                        <a href="#" class="btn btn-primary hvr-float-shadow">Подробнее</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4">
+                <div class="card h-100">
+                    <a class="card-img-top" href='images/tea_card_06.jpg'
+                       style="background-image: url(images/tea_card_06.jpg)"></a>
+                    <div class="card-body">
+                        <h5 class="card-title">Лимонная мята</h5>
+                        <p class="card-text">Смесь лимона с мятой сделает ваш день самым лучшим</p>
+                        <a href="#" class="btn btn-primary hvr-float-shadow">Подробнее</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!--<div class="parallax-window" data-parallax="scroll" data-image-src="images/tea_para.jpg"></div>-->
+
+<section class="answers">
+    <div class="container container__answers">
+        <h2 class="answers__title text-center mt-5 mb-5 wow animate__zoomInRight">Ответы на часто задаваемые
+            вопросы</h2>
+        <div class="col-lg-8 accordion wow animate__backInUp">
+            <div id="accordion">
+                <h3 class="pe-5">Собираете ли вы подарочные боксы?</h3>
+                <div>
+                    <p>Да, у нас есть такая услуга. Мы можем собрать подарочный бокс на любой вкус, объем и
+                        стоимость!</p>
+                </div>
+                <h3 class="pe-5">Сколько у вас разновидностей чая?</h3>
+                <div>
+                    <p>Шесть. В мире есть всего шесть основных видов чая, а все остальное – это их разновидности. А
+                        иногда и вовсе не чай.</p>
+                </div>
+                <h3 class="pe-5">В какой срок осуществляется доставка?</h3>
+                <div>
+                    <p>Продавец обязан передать товар покупателю в порядке и сроки, которые установлены в договоре. Если
+                        в договоре срок доставки товара не определен и отсутствуют возможности определить этот срок,
+                        товар должен быть передан продавцом в разумный срок. Обязательство, не исполненное в разумный
+                        срок, продавец должен выполнить в 7-дневный срок со дня предъявления покупателем требования о
+                        его исполнении. За нарушение продавцом сроков передачи товара покупателю продавец несет
+                        ответственность в соответствии с гражданским законодательством Российской Федерации.</p>
+                </div>
+                <h3 class="pe-5">У вас обновляется ассортимент?</h3>
+                <div>
+                    <p>Обновление всех категорий товаров — один, два раза в неделю. Частичное добавление товара — каждый
+                        день.</p>
+                </div>
+                <h3 class="pe-5">Какого объема у вас пачки чая?</h3>
+                <div>
+                    <p>В пачке может быть 10, 20, 25, 40, 50, 100 или 200 пакетиков. Это получается 20, 40, 50, 80, 100,
+                        200 или 400 г соответственно.</p>
+                    <p>Ещё бывают уменьшенные чайные пакетики. Смотрите на упаковку внимательнее. Так, у Lipton для
+                        маленьких стаканов (150 мл) предназначены пакетики по 1,6 грамма. Их фасуют в пачки по 100 штук.
+                        Такая упаковка, получается, вытягивает 160 г.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!--<div class="parallax-window" data-parallax="scroll" data-image-src="images/tea_para3.jpg"></div>-->
+
+
+<section class="order">
+    <div class="container container__order mb-5 wow animate__fadeInUpBig">
+        <h2 class="order__title text-center mt-5 mb-5">Сделать заказ</h2>
+        <div class="col-lg-6 order__form">
+            <div class="row mb-3 gy-3">
+                <div class="col-sm firstName">
+                    <label for="firstName" class="form-label">Имя</label>
+                    <input type="text" class="form-control" id="firstName">
+                </div>
+                <div class="col-sm secondName">
+                    <label for="secondName" class="form-label">Фамилия</label>
+                    <input type="text" class="form-control" id="secondName">
+                </div>
+                <div class="col-sm phone">
+                    <label for="phone" class="form-label">Телефон</label>
+                    <input type="text" class="form-control" id="phone">
+                </div>
+            </div>
+            <div class="row mb-3 gy-3">
+                <div class="col-sm country">
+                    <label for="country" class="form-label">Страна</label>
+                    <select type="text" class="form-select" id="country">
+                        <option value>Выберите...</option>
+                        <option>Россия</option>
+                    </select>
+                </div>
+                <div class="col-sm index">
+                    <label for="index" class="form-label">Индекс</label>
+                    <input type="text" class="form-control" id="index">
+                </div>
+            </div>
+            <div class="row mb-3 gy-3">
+                <div class="col address">
+                    <label for="address" class="form-label">Адрес</label>
+                    <input type="text" class="form-control" id="address">
+                </div>
+            </div>
+            <button class="btn btn-primary mt-3" id="order" type="button">Отправить</button>
+        </div>
+    </div>
+    <div class="success hide">
+        <div class="container success__container">
+            <h2 class="success__title text-center mt-5 mb-5">Спасибо за заказ. Мы свяжемся с вами в ближайшее
+                время!</h2>
+        </div>
+    </div>
+</section>
+
+<footer>
+    <nav class="navbar bg-body-tertiary">
+        <div class="container-fluid">
+            <p class="mb-0 pt-2 pb-2 text-secondary"><small>Все права защищены</small></p>
+        </div>
+    </nav>
+</footer>
+
+
+<script src="js/bootstrap.min.js"></script>
+<script src="js/jquery-3.6.3.min.js"></script>
+<script src="js/jquery-ui.min.js"></script>
+<script src="js/slick.min.js"></script>
+<script src="js/wow.min.js"></script>
+<script src="js/jquery.magnific-popup.min.js"></script>
+<script src="js/parallax.min.js"></script>
+<script src="js/jquery.inputmask.min.js"></script>
+<script src="js/script.js"></script>
+</body>
+</html>

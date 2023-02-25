@@ -1,0 +1,225 @@
+/* ================ Обнуление ================ */
+
+*,
+*::before,
+*::after {
+    padding: 0;
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul,
+ol,
+li {
+    list-style: none;
+}
+
+img {
+    vertical-align: top;
+}
+
+.img {
+    width: 100%;
+}
+
+.btn-outline-primary {
+    padding: 8px 27px;
+}
+
+.navbar-toggler{
+    border: none;
+}
+
+/* =================== Слайдер =================== */
+.slick-slider {
+    margin: 72px 0;
+}
+
+.slider__item img {
+    width: 100%;
+}
+
+/* =================== Обертка =================== */
+.slick-list {
+    overflow: hidden;
+}
+
+/* =================== Лента слайдов =================== */
+.slick-track {
+    display: flex;
+}
+
+/* =================== Слайд =================== */
+.slick-slide {
+
+}
+
+/* =================== Слайд активный =================== */
+.slick-slide.slick-active {
+
+}
+
+/* =================== Стрелки управления =================== */
+.slider {
+    position: relative;
+}
+
+.slider .slick-arrow {
+    position: absolute;
+    top: calc(50% - 20px);
+    z-index: 50;
+    font-size: 0;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: white;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    border: 1px solid #076BFF;
+}
+
+.slider .slick-arrow.slick-prev {
+    left: 15px;
+    background-image: url('../images/arr_prev.svg');
+}
+
+.slider .slick-arrow.slick-next {
+    right: 15px;
+    background-image: url('../images/arr_next.svg');
+}
+
+.slider .slick-dots {
+    display: flex;
+    gap: 25px;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.slider .slick-dots button {
+    font-size: 0;
+    width: 6px;
+    height: 6px;
+    background-color: #076BFF;
+    border-radius: 50px;
+}
+
+.slider .slick-dots li.slick-active button {
+    background-color: transparent;
+    border: 1px solid #076BFF;
+}
+
+/* ================ Ставим карточки с кропом ================ */
+
+.card-img-top {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 180px;
+    cursor: pointer;
+}
+
+/* ================ Отступ от секции ================ */
+
+.container__collection {
+    margin-bottom: 72px;
+}
+
+/* ================ Кастомизируем аккордеон ================ */
+
+.accordion {
+    margin: 0 auto;
+}
+
+.answers {
+    margin-bottom: 97px;
+    border: none;
+}
+
+.ui-accordion .ui-accordion-header {
+    position: relative;
+    padding: 25px 23px;
+    margin-bottom: 15px;
+    border-radius: 10px;
+    border: none;
+    background: #007fff;
+    color: #FFFFFF;
+    font-weight: 700;
+}
+
+.ui-accordion .header-icon {
+    position: absolute;
+    right: 0;
+    background-image: url('../images/arr_down.svg');
+    display: block;
+    width: 20px;
+    height: 20px;
+}
+
+.ui-icon {
+    background-image: url("../images/arr_down.svg");
+    fill: #FFFFFF;
+}
+
+.accordion .ui-accordion-header {
+    position: relative;
+}
+
+.ui-accordion-content {
+    border: none;
+}
+
+.accordion .ui-accordion-header-icon {
+    content: '';
+    position: absolute;
+    top: calc(50% - 8px);
+    right: 24px;
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    background: url(../images/arr_down.svg) 50% 50% no-repeat;
+}
+
+.accordion .ui-accordion-header-active .ui-accordion-header-icon {
+    background-image: url(../images/arr_up_accord.svg);
+}
+
+.container__answers {
+    margin-bottom: 72px;
+}
+
+.order__form {
+    margin: 0 auto;
+}
+
+/*!* ================ Параллакс ================ *!*/
+
+/*.parallax-window {*/
+/*    min-height: 600px;*/
+/*    background: transparent;*/
+/*}*/
+
+/*!* ================ Спасибо ================ *!*/
+
+.success{
+    opacity: 1;
+    visibility: visible;
+    transition: all 0.5s ease-in-out;
+}
+
+.success.hide {
+    opacity: 0;
+    visibility: hidden;
+}
+
+
+/*@media screen and (max-width: 424px) {*/
+/*    .parallax-window {*/
+/*        display: none;*/
+/*    }*/
+/*}*/
